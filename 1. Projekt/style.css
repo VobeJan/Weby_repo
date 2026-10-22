@@ -1,0 +1,115 @@
+/* 1. Celá stránka */
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+
+    background-color: #e2e8f0;
+    color: #222222;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 2. Nadpisy */
+h1{
+    color: #17324d;
+    font-size: 38px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: #2468a2;
+    border-bottom: 2px solid #2468a2;
+    padding-bottom: 6px;
+}
+
+/* 3. Navigace a odkazy */
+nav{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    margin: 6px;
+    padding: 10px 16px;
+
+    color: white;
+    background-color: #2468a2;
+
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    background-color: orange;
+}
+
+/* 4. Hlavní obsah a jednotlivé sekce */
+main{
+    margin-top: 20px;
+}
+
+section{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* 5. Obrázky a jejich popisky */
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    border-radius: 10px;
+}
+figure{
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+figcaption{
+    margin-top: 8px;
+    color: #555555;
+    text-align: center;
+}
+
+/* 6. Tabulka */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th{
+    color: white;
+    background-color: #2468a2;
+    padding: 12px;
+}
+td{
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+/* 7. Zápatí */
+footer{
+    margin-top: 30px;
+    padding: 15px;
+
+    color: #555555;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
